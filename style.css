@@ -1,0 +1,62 @@
+.custom-nav-text {
+  display: inline;
+  font-size: 20px;
+}
+.custom-body {
+  background-image: linear-gradient(
+    rgba(0, 0, 123, 0.458),
+    rgba(0, 0, 212, 0.89)
+  );
+  width: 80vw;
+  height: 80vh;
+  margin-top: 10px;
+  border: 2px solid;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+.container {
+  padding: 7px;
+}
+.message {
+  background-image: linear-gradient(
+    rgba(255, 248, 248, 0.793),
+    rgba(174, 158, 158, 0.623)
+  );
+  padding: 7px;
+  margin: 10px 2px;
+  width: 75%;
+  border: 2px solid;
+  border-radius: 5px;
+}
+@media screen and (min-width: 992px) {
+  .message {
+    width: 50%;
+  }
+}
+.left {
+  float: left;
+  clear: both;
+}
+.left {
+  float: right;
+  clear: both;
+}
+#send-container {
+  display: block;
+  margin: auto;
+  width: 80vw;
+  text-align: center;
+}
+#message-input {
+  margin: 10px;
+  width: 70%;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 7px;
+}
+.send-btn {
+  border: 2px solid;
+  height: 40px;
+  width: 60px;
+  border-radius: 5px;
+}
